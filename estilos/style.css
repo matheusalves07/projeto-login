@@ -71,7 +71,9 @@ div#formulario > p {
     
 }
 
- form > input [ type= submit] {
+:hover > input [type="submit"]{
     display: block;
+    background-color:violet ;
+    width: 100vw;
 }
 
