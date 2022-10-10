@@ -71,9 +71,20 @@ div#formulario > p {
     
 }
 
-:hover > input [type="submit"]{
+form > input [type=submit]{
+    display: block;
+}
+
+ form > input [type=submit] :hover{
     display: block;
     background-color:violet ;
     width: 100vw;
 }
+
+form > a.botao {
+    display: block;
+    text-align: center;
+}
+
+
 
