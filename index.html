@@ -56,9 +56,29 @@
   
         </section>
     </main>
+    <!-- INICIO CAMPO DE CAPTURA--> 
+    {% if product.title contains "Colar"%}
+    <div style="margin-top:20px ;margin-bottom:20px;">
+    <input type="file" id="file" name="properties[File]" form="{{product_form_id}}">
+    </div>
+      {% endif %}
+ <!-- fim CAMPO DE CAPTURA--> 
 
-    
+   <!-- INICIO CAMPO DE CAPTURA--> 
     
     
 </body>
+
+<!--
+    <h3>Envie sua foto <span style="color: #ff2a00;"><abbr class="required" title="Requeridos">*</abbr> </span></h3>
+<div class="ywapo_options_container">
+<div class="ywapo_input_container ywapo_input_container_file"><label for="ywapo_ctrl_id_3_0" class="ywapo_label  ywapo_label_tag_position_before"><span class="ywapo_option_label ywapo_label_position_before">📸 </span> </label><label for="ywapo_ctrl_id_3_0" style="cursor: pointer;" data-mce-style="cursor: pointer;"></label><input id="ywapo_ctrl_id_3_0" placeholder="" data-typeid="3" data-price="0" data-pricetype="fixed" data-index="0" type="file" name="ywapo_file_3[0]" value="ywapo_value_3" class="ywapo_input ywapo_input_file ywapo_price_fixed"></div>
+<div class="ywapo_input_container ywapo_input_container_file"></div>
+<div class="ywapo_input_container ywapo_input_container_file"></div>
+<div class="ywapo_input_container ywapo_input_container_file"></div>
+<div class="ywapo_input_container ywapo_input_container_file"></div>
+<div class="ywapo_input_container ywapo_input_container_file"></div>
+<div class="ywapo_input_container ywapo_input_container_file"></div>
+</div>
+-->
 </html>
