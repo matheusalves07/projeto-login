@@ -76,7 +76,7 @@ form > div.campo {
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px 5px 0px;        
 }
 div.campo label {
@@ -85,14 +85,28 @@ div.campo label {
 
 div.campo > span.material-symbols-outlined{
     color:white;
-    background-color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 
 }
 
-div.campo
+div.campo > input {
+    background-color:#6cb0ae ;
+    font-size: 1em;
+    width:calc(90%-44px) ;
+    height: 90%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-40px);
+    margin-left:40px ;
+
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+}
 
 
 form > input [type=submit]{
