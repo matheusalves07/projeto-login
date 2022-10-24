@@ -83,6 +83,17 @@ div.campo label {
     display: none;    
 }
 
+div.campo > span.material-symbols-outlined{
+    color:white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+div.campo
+
 
 form > input [type=submit]{
     display: block;
