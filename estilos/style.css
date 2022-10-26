@@ -40,7 +40,6 @@ section#login{
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
     transform: translate(-50%,-50%);
-
 }
 
 section#login > div#imagem {
